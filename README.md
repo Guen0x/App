@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Recrutement App
+Une application de gestion des candidatures pour le recrutement. Cette application permet aux candidats de soumettre leurs candidatures et aux recruteurs de consulter la liste des candidats ainsi que les détails des candidats.
 
-## Getting Started
+Prérequis
+Avant de pouvoir exécuter le projet, vous devez vous assurer que vous avez installé les outils suivants sur votre machine :
 
-First, run the development server:
+Node.js (version 16 ou supérieure)
+npm ou yarn (gestionnaires de paquets)
 
-```bash
+
+Installation
+1. Clonez le dépôt
+Commencez par cloner ce dépôt sur votre machine locale :
+
+git clone <URL_DU_DEPOT>
+cd recrutement-app
+
+2. Installez les dépendances
+Ensuite, installez toutes les dépendances nécessaires :
+npm install
+
+3. Configurez l'environnement
+Si nécessaire, configurez vos variables d'environnement dans un fichier .env à la racine du projet.
+
+4. Lancer l'application
+Une fois les dépendances installées, vous pouvez démarrer le serveur de développement avec la commande suivante :
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cela lancera l'application sur http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Technologie utilisée
+Next.js pour le framework web.
+React Redux pour la gestion de l'état global.
+Ant Design pour la bibliothèque de composants UI.
+TypeScript pour une meilleure gestion des types.
+Draw.io pour la création des diagrammes UML.
