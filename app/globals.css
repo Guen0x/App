@@ -1,21 +1,65 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Font globales */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête de page */
+h2 {
+  color: #0050b3;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Conteneur de formulaire et tableau */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Formulaire personnalisé */
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.ant-input, .ant-btn {
+  border-radius: 8px;
+}
+
+/* Boutons */
+.ant-btn-primary {
+  background-color: #0050b3;
+  border-color: #0050b3;
+}
+
+.ant-btn-primary:hover {
+  background-color: #003a8c;
+  border-color: #003a8c;
+}
+
+/* Tableau */
+.ant-table {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Tableau des candidats */
+.ant-table-thead > tr > th {
+  background-color: #f0f2f5;
+  font-weight: bold;
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 1rem;
+  padding: 12px;
+}
+
+.ant-table-pagination {
+  margin-top: 20px;
 }
