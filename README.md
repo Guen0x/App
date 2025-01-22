@@ -12,7 +12,7 @@ Installation
 1. Clonez le dépôt
 Commencez par cloner ce dépôt sur votre machine locale :
 
-git clone <URL_DU_DEPOT>
+git clone https://github.com/Guen0x/App
 cd recrutement-app
 
 2. Installez les dépendances
